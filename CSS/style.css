@@ -8,12 +8,12 @@
 
     }
     
-    .div1 { grid-area: 1 / 1 / 2 / 6; background-color: rgb(83, 83, 109);box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); }
-    .div2 { grid-area: 2 / 1 / 6 / 2;background-color: rgb(188, 193, 149);box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); }
-    .div3 { grid-area: 2 / 2 / 4 / 4;background-color: rgb(255, 255, 255);box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); }
-    .div4 { grid-area: 2 / 4 / 4 / 6;background-color: rgb(255, 255, 255);box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); }
-    .div5 { grid-area: 4 / 2 / 6 / 4;background-color: rgb(255, 255, 255);box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); }
-    .div6 { grid-area: 4 / 4 / 6 / 6;background-color: rgb(255, 255, 255);box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);; }
+    .div1 { grid-area: 1 / 1 / 2 / 6; background-color: rgb(83, 83, 109);box-shadow: 0 4px 8px 0 rgba(2,2,2,2.2); }
+    .div2 { grid-area: 2 / 1 / 6 / 2;background-color: rgb(188, 193, 149);box-shadow: 0 4px 8px 0 rgba(2,2,2,2.2); }
+    .div3 { grid-area: 2 / 2 / 4 / 4;background-color: rgb(255, 255, 255);box-shadow: 0 4px 8px 0 rgba(2,2,2,2.2); }
+    .div4 { grid-area: 2 / 4 / 4 / 6;background-color: rgb(255, 255, 255);box-shadow: 0 4px 8px 0 rgba(2,2,2,2.2); }
+    .div5 { grid-area: 4 / 2 / 6 / 4;background-color: rgb(255, 255, 255);box-shadow: 0 4px 8px 0 rgba(2,2,2,2.2); }
+    .div6 { grid-area: 4 / 4 / 6 / 6;background-color: rgb(255, 255, 255);box-shadow: 0 4px 8px 0 rgba(2,2,2,2.2);; }
 
 
 .recherche {
@@ -24,7 +24,7 @@
     margin:auto;
     margin-top: 75px;
     width: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(2,2,2,2.2);
     transition: 0.3s;
     border-radius: 5px; /* 5px rounded corners */
   }
@@ -39,5 +39,11 @@
   }
   .testImg img{
       position: relative;
-        margin-left: 90px;
+        margin-left: 75px;
+  }
+  .imgPanier{
+      position: relative;
+      margin-right: 25px;
+      margin-top: -30px;
+      
   }
