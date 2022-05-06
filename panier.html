@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/panier.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <title>Panier</title>
+</head>
+<body>
+    <h1>Mon Panier</h1>
+
+<div class="table100">
+<table>
+<thead>
+<tr class="table100-head">
+<th class="column1">Nom produit</th>
+<th class="column2">Prix</th>
+<th class="column3">Quantité</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="column1">2017-09-29 01:22</td>
+<td class="column2">200398</td>
+<td class="column3">iPhone X 64Gb Grey</td>
+</tr>
+</tbody>
+</table>
+<div class="btnPan">
+<a href="#reset"><button>Vider mon panier</button></a>
+<a href="#valider"><button>Valider mon panier</button></a>
+</div>
+</div>
+
+
+<div class="smart-popin" id="reset">
+    <div class="sp-table">
+        <div class="sp-cell">
+  
+            <div class="sp-body">
+                <p class="tailleMoyenne">Voulez-vous vraiment vider votre panier ?</p>
+                <br>
+                <br>
+                <center><button onclick="resetConfirm()">Oui</button><button onclick="resetCancel()">Non</button></center>
+  
+                <a href="#" class="sp-close"><i class="fa-solid fa-x"></i></a>
+            </div>
+  
+            <a href="#" class="sp-back"></a>
+  
+        </div>
+    </div>
+  </div>
+
+  <div class="smart-popin" id="valider">
+    <div class="sp-table">
+        <div class="sp-cell">
+  
+            <div class="sp-body">
+                <p class="tailleMoyenne">Voulez-vous vraiment valider votre panier ?</p>
+                <br>
+                <br>
+                <center><button onclick="resetConfirm()">Oui</button><button onclick="resetCancel()">Non</button></center>
+  
+                <a href="#" class="sp-close"><i class="fa-solid fa-x"></i></a>
+            </div>
+  
+            <a href="#" class="sp-back"></a>
+  
+        </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
