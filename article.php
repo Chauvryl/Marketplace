@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/article.css" />
     <title>Listes des articles</title>
   </head>
 
   <body>
     <div class="header"><h1>Listes des articles</h1></div>
+    <button><a href="article.php?panier">Voir panier</a></button>
     <div class="container">
       <div class="card">
         <div class="card-header">
@@ -21,7 +23,12 @@
         <div class="card-body">
           <p class="description">CAsque audio</p>
           <span class="prix" id="prix1">56€</span>
-          Quantité<input type="number" class="quantite" id="quantite1" value="1"/>
+          Quantité<input
+            type="number"
+            class="quantite"
+            id="quantite1"
+            value="1"
+          />
           <button onclick="ajouterProduit(1)">Ajouter au Panier</button>
         </div>
       </div>
@@ -36,7 +43,12 @@
         <div class="card-body">
           <p class="description">Téléviseur HD 4k</p>
           <span class="prix" id="prix2">1200€</span>
-          Quantité<input type="number" class="quantite" id="quantite2" value="1"/>
+          Quantité<input
+            type="number"
+            class="quantite"
+            id="quantite2"
+            value="1"
+          />
           <button onclick="ajouterProduit(2)">Ajouter au Panier</button>
         </div>
       </div>
@@ -51,7 +63,12 @@
         <div class="card-body">
           <p class="description">Console de jeux</p>
           <span class="prix" id="prix3">450€</span>
-          Quantité<input type="number" class="quantite" id="quantite3" value="1"/>
+          Quantité<input
+            type="number"
+            class="quantite"
+            id="quantite3"
+            value="1"
+          />
           <button onclick="ajouterProduit(3)">Ajouter au Panier</button>
         </div>
       </div>
@@ -66,7 +83,12 @@
         <div class="card-body">
           <p class="description">Livre d'espionnage</p>
           <span class="prix" id="prix4">15€</span>
-          Quantité<input type="number" class="quantite" id="quantite4" value="1"/>
+          Quantité<input
+            type="number"
+            class="quantite"
+            id="quantite4"
+            value="1"
+          />
           <button onclick="ajouterProduit(4)">Ajouter au Panier</button>
         </div>
       </div>
@@ -81,7 +103,12 @@
         <div class="card-body">
           <p class="description">Souris gamer</p>
           <span class="prix" id="prix5">50€</span>
-          Quantité<input type="number" class="quantite" id="quantite5" value="1"/>
+          Quantité<input
+            type="number"
+            class="quantite"
+            id="quantite5"
+            value="1"
+          />
           <button onclick="ajouterProduit(5)">Ajouter au Panier</button>
         </div>
       </div>
